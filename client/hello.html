@@ -1,0 +1,28 @@
+<template name="hello">
+
+    <div class=" container ">
+    <h2>Monkeys forever!</h2>
+
+    
+<div class="tableMonkeys">
+<span id ="updateButton"><button id = "updatelistMonkeys"><img src="images/update-contacts-icon.png"  style= "width: 2em;"></button></span>
+{{#each monkeys}}
+	<p><span>{{name}}</span></p>
+{{/each}}
+   {{> tabular table=TabularTables.Monkeys class="table table-striped table-responsive table-bordered table-condensed" data-sort-age="age"}}
+<form class="form-horizontal">
+ <legend ><b>Add a new Monkey: </b> </legend>
+ <div class = "form-group" > <label>Name: </label> <input type="text" name="new_name" class="form-control" placeholder="name" ></div>
+ <div class = "form-group" > <label>Age: </label> <input type="number" name="new_age" class="form-control" placeholder=1 ></div>
+ <div class = "form-group"><label>Submit: </label>
+ <button type="submit" class="btn btn-primary"> <span class="glyphicon glyphicon-floppy-disk"></span></button></div>
+  
+    </form>
+
+
+    </div>
+{{> asideRight}}
+    </div>
+
+ 
+</template>

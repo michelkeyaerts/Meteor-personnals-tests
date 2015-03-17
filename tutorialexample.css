@@ -1,0 +1,43 @@
+/* CSS declarations go here */
+.asideRight{
+	float: right;
+	border: solid 1px;
+	border-color: #337AB7;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	height: 100%;
+	background-color:#F9F9F9;
+}
+.asideRight img{
+
+	width: 350px;
+
+}
+.cadreImages{
+	padding: 10px;
+}
+.delete{
+	float: right;
+	margin-right: 10px;
+	
+}
+
+.tableMonkeys{
+	float: left;
+	width: 700px;
+	margin:30px;
+
+}
+#updateButton{
+	float: right;
+}
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
